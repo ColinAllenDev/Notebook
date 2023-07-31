@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "5e706cfce6466450",
+    "type": "split",
+    "children": [
+      {
+        "id": "cef34f61be084de5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46829887594aa458",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "17e0958028533c47",
+    "type": "split",
+    "children": [
+      {
+        "id": "98477d48d6fe21a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "592ab0cf5d31e558",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "bf3b6cbc6df953e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eff17defd7986427",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "6803f463baa53e7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "80f56060042ead9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1fa20c6d09e89eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f23f1e76880cd56",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "12f7c201936b4001",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0e5dcbdf6657eeee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "46829887594aa458",
+  "lastOpenFiles": [
+    "TinyGame DevLogs/The InputManager Class (5-18-23).md",
+    "TinyGame DevLogs/Hell (6-30-23).md",
+    "TinyGame DevLogs/Ball Physics (5-20-23).md",
+    "C++/Quick Notes.md",
+    "Game Engine Architecture/Untitled.md",
+    "C++",
+    "Game Engine Architecture",
+    "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+    "TinyGame",
+    "Cover Letter - Home Depot.md",
+    "TinyGame DevLogs"
+  ]
+}

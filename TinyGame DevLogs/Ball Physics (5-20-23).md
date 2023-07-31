@@ -1,0 +1,6 @@
+When the game starts, a (for now random) player will be selected to serve the ball to the other players. Process works by waiting for an input which will then instantiate the ball.
+
+The ball will have the following states:
+- **Serve** - This happens right when the ball is instantiated. It will start with an upward motion where it will pause briefly at it's "max serve height" and then begin to fall to the ground. If it hits the ground something will happen I don't know what yet.
+- **Air** - When the ball is hit it will travel from the player to the other side of the court. It will use the players current direction (the player will be standing still but they can use the default movement input to control which direction the ball will go. This shape of motion could be determined by half a semi-sphere i'm not sure what to call that).
+- **Collision** - If the ball collides with a player, it will bounce off according to the motion and direction of that player. If a player hits the ball it will travel in a more directed arc towards the other side of the court. If the ball hits the ground, depending on where it falls, it will be destroyed and a team gets a point.
