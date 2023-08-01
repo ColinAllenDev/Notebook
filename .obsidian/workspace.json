@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+                "file": "Software Fundamentals/Memory Layout.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+                "file": "Software Fundamentals/Memory Layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+                "file": "Software Fundamentals/Memory Layout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyGame DevLogs/Fun with Signals (5-17-23).md"
+                "file": "Software Fundamentals/Memory Layout.md"
               }
             }
           }
@@ -148,14 +148,23 @@
   },
   "active": "46829887594aa458",
   "lastOpenFiles": [
+    "Software Fundamentals/Data and Code Layout.md",
+    "Software Fundamentals/Catching and Handling Errors.md",
+    "Software Fundamentals/Code Standards.md",
+    "Software Fundamentals/Definitions and Design Patterns.md",
+    "Software Fundamentals/Memory Layout.md",
+    "img/img_objmemlayout1.png",
+    "img/Screenshot from 2023-07-31 21-12-58.png",
+    "img/img_objmemlayout.png",
+    "img/Screenshot from 2023-07-31 21-06-18.png",
+    "img",
+    "C++/Quick Notes.md",
+    "TinyGame DevLogs/Fun with Signals (5-17-23).md",
     "TinyGame DevLogs/The InputManager Class (5-18-23).md",
     "TinyGame DevLogs/Hell (6-30-23).md",
     "TinyGame DevLogs/Ball Physics (5-20-23).md",
-    "C++/Quick Notes.md",
-    "Game Engine Architecture/Untitled.md",
     "C++",
-    "Game Engine Architecture",
-    "TinyGame DevLogs/Fun with Signals (5-17-23).md",
+    "Software Fundamentals",
     "TinyGame",
     "Cover Letter - Home Depot.md",
     "TinyGame DevLogs"
