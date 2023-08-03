@@ -118,7 +118,7 @@ Alignment is important because many modern processors can actually only read and
 A good rule of thumb is that a data type should be aligned to a boundary equal to the width of the data type in bytes. For example, 32-bit values generally have a 4-byte alignment requirement, 16-bit values have a 2-byte alignment, and 8-bit values can be stored at any address (1-byte aligned). By considering the layout of the members of your data structures, you can elimitate these "holes" that are wasting space by sorting these members by their alignment.  
 
 ```cpp
-struct EfficientPadding {
+struct EfficientPacking {
 	U32 mU1; // 32 bits (4-byte aligned)
 	U32 mU2; // 32 bits (4-byte aligned)
 	U32 mU3; // 32 bits (4-byte aligned)
@@ -127,3 +127,15 @@ struct EfficientPadding {
 	bool mB2; // 8 bits (1-byte aligned)
 }
 ```
+
+> Note: You might assume that the size of the `EfficientPadding` structure as a whole is 18 bytes, but it actually *20 bytes*. This is because it has been padded by two bytes at the end. This padding is added by the compiler to ensure proper alignment in an *array context*. This is, if an array of these structs is defined and the first element of the array is aligned, then the padding at the end guarantees that *all subsequent elements* will also be aligned properly. 
+> An optional addition to this structure to visualize this concept would be adding explicit padding yourself: `U8 _pad[2];`
+
+The alignment of a structure as a whole is equal to the largest alignment requirement among it's members. The data structure `EfficientPacking`'s largest member is 4 bytes, so it should be 4-byte aligned.
+
+## Memory Layout of C++ Classes
+Two things make C++ classes different from C structures in terms of memoru layout: *inheritance* and *virtual functions*. When class B inherits from class A, B's data members simply appear *immediately after* A's in memory (if A is at `0x0`, then B would be located at `0x0 + sizeof(A)`). Each new derived class simply tacks its data members on at the end.
+#### VTables
+If a class contains or inherits one or more *virtual* functions, then four additional bytes (or 8 bytes for 64-bit hardware) are added to the class layout, typically at the very beggining of the class' layout. These four to eight bytes are typically called the *virtual table pointer* or *vpointer*, because they contain a pointer to a data structure known as the *virtual function table* or *vtable*.
+
+The vtable for a particular class contains pointers to all the virtual functions that it declares or inherits. Each concrete class has its own virtual table, and every instance of that class has a pointer to it, stored in its vpointer.

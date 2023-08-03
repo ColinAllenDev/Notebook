@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Fundamentals/Memory Layout.md",
+                "file": "Software Fundamentals/Computer Hardware.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6803f463baa53e7a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Fundamentals/Memory Layout.md",
+                "file": "Software Fundamentals/Computer Hardware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Fundamentals/Memory Layout.md",
+                "file": "Software Fundamentals/Computer Hardware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Fundamentals/Memory Layout.md"
+                "file": "Software Fundamentals/Computer Hardware.md"
               }
             }
           }
@@ -148,16 +149,17 @@
   },
   "active": "46829887594aa458",
   "lastOpenFiles": [
+    "Software Fundamentals/Memory Layout.md",
+    "Software Fundamentals/Computer Hardware.md",
     "Software Fundamentals/Data and Code Layout.md",
     "Software Fundamentals/Catching and Handling Errors.md",
     "Software Fundamentals/Code Standards.md",
     "Software Fundamentals/Definitions and Design Patterns.md",
-    "Software Fundamentals/Memory Layout.md",
-    "img/img_objmemlayout1.png",
+    "_img/img_objmemlayout1.png",
     "img/Screenshot from 2023-07-31 21-12-58.png",
-    "img/img_objmemlayout.png",
+    "_img/img_objmemlayout.png",
     "img/Screenshot from 2023-07-31 21-06-18.png",
-    "img",
+    "_img",
     "C++/Quick Notes.md",
     "TinyGame DevLogs/Fun with Signals (5-17-23).md",
     "TinyGame DevLogs/The InputManager Class (5-18-23).md",
